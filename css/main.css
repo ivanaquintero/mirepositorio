@@ -1,0 +1,147 @@
+p {
+  color: #ffffff; }
+
+* {
+  margin: 1px;
+  padding: 1px; }
+
+.tituloH1 {
+  color: #ffffff;
+  animation-duration: 2s;
+  animation-name: aparecer; }
+
+.tituloH2 {
+  color: #ffffff;
+  animation-duration: 2s;
+  animation-name: aparecer; }
+
+.parrafos {
+  color: #ffffff;
+  animation-duration: 2s;
+  animation-name: aparecer; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.body__flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: stretch;
+  flex-grow: 1;
+  padding: 1em; }
+
+.centrar {
+  text-align: center; }
+
+/*@media only screen and (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+@media only screen and (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }*/
+.menu__flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; }
+
+.center__flex {
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+  flex-grow: 1;
+  justify-content: center; }
+
+.grid {
+  display: grid;
+  grid-template-columns: 700px 700px;
+  grid-template-rows: 500px, 500px; }
+
+section#entremaniento {
+  grid-area: entrenamiento; }
+
+section#nutricion {
+  grid-area: nutricion; }
+
+section#entrenamientoynutricion {
+  grid-area: entrenamientoynutricion; }
+
+.romano {
+  list-style-type: upper-roman;
+  color: #ffffff; }
+
+/*.floatleft{
+  float: left;
+}
+
+.floatright{
+  float: right;
+ }*/
+ul li {
+  color: #000000;
+  position: relative; }
+
+ul li a {
+  text-decoration: none; }
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  position: relative; }
+
+ul {
+  list-style-type: none; }
+
+ul ul {
+  position: absolute;
+  display: none; }
+
+ul ul li {
+  display: block; }
+
+ul li:hover ul {
+  display: block; }
+
+header {
+  padding: 0px;
+  margin: 0px;
+  display: block;
+  position: fixed;
+  width: 100%; }
+
+section {
+  padding-top: 200px;
+  margin: 0px;
+  display: block; }
+
+/*PORQUE ME TOMA BACKGROUND EN EL HEADER CUANDO SOLO QUIERO SEA EN EL SECTION, QUE TENGO MAL?*/
+footer {
+  margin: 0px;
+  display: block;
+  grid-area: footer; }
+
+.mediano {
+  width: 70%;
+  height: 10%; }
+
+body {
+  background-image: linear-gradient(to right top, #e7b0dd, #d49dcd, #c18abe, #ae78af, #9b66a1, #8a568b, #794776, #683962, #512b45, #391f2d, #211319, #000000); }
+
+#galeriaVarias {
+  width: 20%;
+  transform: rotateX(50deg); }
+
+#redesSociales {
+  width: 3%; }
+
+#logoProyecto {
+  width: 7%; }
+
+#reservaCalendario {
+  width: 90%; }
